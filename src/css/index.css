@@ -25,6 +25,26 @@ ul{
     -o-transform:rotate(30deg); 	/* Opera */
 }
 
+.clock-wrap{
+    margin:2em;position: relative;
+    left: 840px;
+    top: 450px;
+}
+
+.clock{
+    position: absolute;
+    display: block;
+}
+
+.off-duty{
+    font-family: 黑体;
+    display: none;
+    position: absolute;
+    font-weight: bold;
+    color: #fff;
+    font-size: 80px;
+}
+
 .list{
     height: 100%;
     width: 200%;
