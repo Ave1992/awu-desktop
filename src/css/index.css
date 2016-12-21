@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.page{
+    overflow: hidden;position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: cornflowerblue;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    transform:rotate(30deg);
+    -ms-transform:rotate(30deg); 	/* IE 9 */
+    -moz-transform:rotate(30deg); 	/* Firefox */
+    -webkit-transform:rotate(30deg); /* Safari 和 Chrome */
+    -o-transform:rotate(30deg); 	/* Opera */
+}
+
+.list{
+    height: 100%;
+    width: 200%;
+    margin-left: -50%;
+}
+
+.rb-item{
+    background-color: dodgerblue;
+    height: 25%;
+}
